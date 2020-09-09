@@ -2,13 +2,6 @@
   box-sizing: border-box;
 }
 
-header{
-  background-color:black;
-  color: white;
-  height: 55px;
-  width:100%;
-}
-
 section{
   width: 100%
 }
@@ -21,8 +14,15 @@ section{
 .main-width {
   margin: 0 auto;
   max-width: 1300px;
+}
 
+/* header, navigation*/
 
+header{
+  background-color:black;
+  color: white;
+  height: 55px;
+  width:100%;
 }
 
 .logo p {
@@ -71,6 +71,7 @@ nav ul > li{
   padding: 10px
 }
 
+/* section 1 - slider*/
 
 .slider-image{
   float:left;
@@ -141,3 +142,73 @@ strong {
   text-transform: uppercase;
   font-size:
 }
+
+/* section 2 - products */
+.product {
+  display: inline-block;
+  width:400px;
+  background-color: grey;
+  float: left;
+  margin:25px 15px 25px 15px;
+}
+
+.product-1 {
+  background-image: url("../images/box1_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:250px;
+}
+
+.product-2 {
+  background-image: url("../images/box2_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:250px;
+}
+
+.product-3 {
+  background-color:white;
+  border: 1px solid #CECED6;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.product-3 .title{
+  height:auto;
+  overflow:auto;
+  padding:25px;
+  background: none;
+  margin:0px
+}
+
+.title p{
+  line-height: 25px;
+  color:grey}
+
+.product-3 .title h4{
+  margin: 0;
+  padding: 0
+}
+
+.title {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 70px;
+  margin-top: 160px;
+}
+
+.title h4 {
+  font-weight: 400;
+  padding: 20px 0px 2px 0px;
+  border-bottom: 5px solid #0092FD;
+  width: 150px;
+  margin-left: 15px
+}
+
+
+
+/* section 3 - prices */
+/* section 4 - contact */
