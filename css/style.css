@@ -183,7 +183,6 @@ strong {
   background-position: center;
   background-size: cover;
   margin:25px 0px 25px 25px;
-
 }
 
 .product-3 .title{
@@ -219,16 +218,24 @@ strong {
 
 /* section 3 - prices */
 .options{
-  height: 500px;
-  margin: 0 auto
+  height: 700px;
+  margin: 0 auto;
+  padding: 40px 0;
 }
-.price{
+.prices{
   background-color: #F1F1F1;
+}
+
+.price{
   height: 100%;
   width: 400px;
   display: inline-block;
   text-align: center;
-  border: 1px solid #CECED6
+  border: 1px solid #CECED6;
+  float:left;
+  background-color:white;
+  padding-bottom: 50px;
+  font-size: 18px
 }
 
 .prices h3 {
@@ -241,6 +248,7 @@ strong {
 .prices h2 {
   font-weight: 300;
   text-transform: uppercase;
+  font-size: 28px
 }
 
 .price-option-1{
@@ -271,8 +279,8 @@ strong {
 
 .money-per-month{
   border: 1px solid #CECED6;
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   margin: 30px auto;
   padding: 15px
@@ -290,4 +298,83 @@ strong {
 .active .money-per-month{
   background-color: white
 }
+.offering{
+  height: 220px;
+  color: #605E5E
+}
+
+ .button-option  p{
+  padding: 10px;
+  background-color: #0092FD;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin:0 120px;
+  color: white
+}
+
+.circle{
+  width:50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #CECED6;
+  position: relative;
+  top:-25px;
+  left:175px;
+}
+
+.circle-inside{
+  width:30px;
+  height: 30px;
+  background-color: grey;
+  border-radius: 50%;
+  margin:9px auto;
+}
+
+.active .circle{
+  width:50px;
+  height: 50px;
+  background-color: #0092FD;
+  border-radius: 50%;
+  border: 1px solid #0092FD;
+  position: relative;
+  top:-25px;
+  left:175px;
+}
+
+.active .circle-inside{
+  width:30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  margin:9px auto;
+}
+
+.active .button-option p{
+  background-color: white;
+  color:#0092FD
+}
+
+.offering p {
+  background-color: #F9F9F9;
+  padding: 10px;
+  margin: 0 auto
+}
+
+.price-option-1 .offering p:nth-child(2n+1), .price-option-3 .offering p:nth-child(2n+1) {
+  background-color: #E4E4E4;
+  padding: 10px;
+  margin: 0 auto
+}
+
+.price-option-2 .offering p:nth-child(2n+2){
+  background-color: #E4E4E4;
+  padding: 10px;
+  margin: 0 auto
+}
+
+.active .offering p {
+  color:#605E5E
+}
+
 /* section 4 - contact */
