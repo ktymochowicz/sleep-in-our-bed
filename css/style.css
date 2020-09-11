@@ -380,7 +380,7 @@ strong {
 /* section 4 - contact */
 
 .form {
-  height:500px
+  height:450px
 }
 
 .left-column, .right-column{
@@ -399,7 +399,8 @@ strong {
 
 .right-column img{
   display: block;
-  margin: 0 auto
+  margin: 0 auto;
+  margin-bottom: 25px
 }
 .right-column img:after{
   clear: both;
@@ -407,7 +408,7 @@ strong {
   content:''
 }
 
-input{
+input[type=text], input[type=email]{
   height:50px;
   width:750px;
   margin: 20px 0;
@@ -416,32 +417,53 @@ input{
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   color: #CACACA;
+  padding: 15px
 }
 
 textarea {
   width:750px;
-  height:150px;
+  height:180px;
   resize: none;
   margin: 20px 0;
   border-radius: 0;
   border: 1px solid #0092FD;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  color: #CACACA
-}
-
-input[type=checkbox]{
-  float: left;
-  display: inline-block;
-  width: 100%;
+  color: #CACACA;
+  padding: 15px
 }
 
 input[type=submit]{
   float: left;
   display: inline-block;
-  width:200px;
+  width: 500px;
+  height: 70px;
   background-color: #0092FD;
-  color: white
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top:25px
+}
+input[type=checkbox]{
+  font-family: 'Montserrat', sans-serif;
+  width: 70px;
+  height: 50px;
+  margin-top: 0px;
+  display: inline-block;
+  float: left;
+
+
+}
+
+label{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: left;
+
+
 }
 
 /*footer*/
