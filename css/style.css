@@ -238,7 +238,7 @@ strong {
   font-size: 18px
 }
 
-.prices h3 {
+.prices h3, .contact h3{
   font-weight: 200;
   text-transform: uppercase;
   border-bottom: 5px solid #0092FD;
@@ -378,3 +378,75 @@ strong {
 }
 
 /* section 4 - contact */
+
+.form {
+  height:600px
+}
+
+.left-column, .right-column{
+  position: inline-block;
+  float: left;
+
+}
+
+.left-column {
+  width:60%
+}
+
+.right-column{
+  width:40%
+}
+
+.right-column img{
+  display: block;
+  margin: 0 auto
+}
+.right-column img:after{
+  clear: both;
+  display:block;
+  content:''
+}
+
+input{
+  height:50px;
+  width:750px;
+  margin: 20px 0;
+  border-radius: 0;
+  border: 1px solid #0092FD;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #CACACA;
+}
+
+textarea {
+  width:750px;
+  height:150px;
+  resize: none;
+  margin: 20px 0;
+  border-radius: 0;
+  border: 1px solid #0092FD;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #CACACA
+}
+
+.contact{
+  background-color: #F1F1F1;
+}
+
+input[type=checkbox]{
+  float: left;
+  display: inline-block;
+  width:100%
+}
+
+input[type=submit]{
+  float: left;
+  display: inline-block;
+  width:200px;
+  background-color: #0092FD;
+  color: white
+}
+label input[type=checkbox]{
+float: left
+}
